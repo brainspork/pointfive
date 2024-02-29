@@ -38,3 +38,13 @@ Git uses branches which essentialy are references to the initial code state of t
 So, say I want to add sprint feature to our player character. I can create a branch off of main and start working on the functionallity. Once I'm done I push my branch to the repository on GitHub and create a Pull Request which is a request to merge my feature into the main body of code. Other people working on the project have a chance to review the code changes and make suggestions. If there are no issues, the Pull Request can be completed and the code is now in the main branch.
 
 - Git LFS Extension
+
+## Git cheatsheet
+Create a new branch: `git checkout -b branchname`
+Push branch to repo: `git push origin branchname`
+View change status: `git status`
+Stage all changes: `git stage *`
+Commit changes: `git commit -m "Message describing changes"`
+Pull changes `git pull`
+Pull changes from other branch: `git pull origin branchname`
+View branches: `git branch`
