@@ -55,7 +55,7 @@ When merging, there is something called merge conflicts. This happens when the s
    3. Run `git add *` to stage all files for commit or `git add filename1 filename2 ...` to stage specific files
    4. Run `git status` again to make sure that your staged changes are what you expect
    5. Run `git commit -m "Message describeing changes"` to commit the changes
-   6. Run `git push origin branch-name` to push the branch and changes to the remote repository
+   6. Run `git push origin branch-name` to push the branch and changes to the remote repository (If the branch has already been pushed you just need to run `git push`)
    7. Repeat 1-6 until your feature is done
 4. Create a pull request in GitHub and tell people it's there (Pull requests tab on the project page in GitHub)
 5. Once merge is complete, switch back to main using `git checkout main`
